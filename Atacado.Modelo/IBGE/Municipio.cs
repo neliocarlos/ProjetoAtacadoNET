@@ -39,7 +39,7 @@ namespace Atacado.Modelo.IBGE
 
         public Municipio(int codigo, string descricao, int codigoUF, string siglaUF,
             int codigoMesoregiao, int codigoMicroregiao, int codigoIBGE6, int codigoIBGE7,
-            long populacaoMunicipio, string porte, long cep)
+            long populacaoMunicipio, string porteMunicipio, long cep)
             : base(codigo, descricao)
         {
             this.codigoUF = codigoUF;
@@ -49,7 +49,7 @@ namespace Atacado.Modelo.IBGE
             this.codigoIBGE6 = codigoIBGE6;
             this.codigoIBGE7 = codigoIBGE7;
             this.populacaoMunicipio = populacaoMunicipio;
-            this.porteMunicipio = porte;
+            this.porteMunicipio = porteMunicipio;
             this.cep = cep;
         }
     }

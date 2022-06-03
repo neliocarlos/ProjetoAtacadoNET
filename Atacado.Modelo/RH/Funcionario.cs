@@ -33,7 +33,9 @@ namespace Atacado.Modelo.RH
         public string Cpf { get => cpf; set => cpf = value; }
         public string Rg { get => rg; set => rg = value; }
 
-        public Funcionario(int codigo, string telefone, string email, string endereco, string nome, string sobreNome, int idade, double altura, double peso, DateTime dtNascimento, string naturalidade, string nacionalidade, string sexo, string cpf, string rg)
+        public Funcionario(int codigo, string telefone, string email, 
+            string endereco, string nome, string sobreNome, int idade, double altura, double peso,
+            DateTime dtNascimento, string naturalidade, string nacionalidade, string sexo, string cpf, string rg)
             : base(codigo, telefone, email, endereco)
         {
             this.nome = nome;

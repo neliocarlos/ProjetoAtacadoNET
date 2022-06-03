@@ -25,9 +25,13 @@ namespace DesafioDaGripe01
             //int codigo = Convert.ToInt32(Console.ReadLine());
             //ApresentarFuncionarios(codigo);
 
-            Console.Write("Informe o código da empresa: ");
+            //Console.Write("Informe o código da empresa: ");
+            //int codigo = Convert.ToInt32(Console.ReadLine());
+            //ApresentarEmpresa(codigo);
+
+            Console.Write("Informe o código do funcionário: ");
             int codigo = Convert.ToInt32(Console.ReadLine());
-            ApresentarEmpresa(codigo);
+            ApresentarFuncionario(codigo);
             Console.ReadLine();
         }
 
@@ -45,7 +49,7 @@ namespace DesafioDaGripe01
             Console.WriteLine("Situação: {0}", cat.Situacao);
         }
 
-        private static void ApresentarFuncionarios(int id)
+        private static void ApresentarFuncionario(int id)
         {
             FuncionarioDAO dao = new FuncionarioDAO();
             Funcionario fun = dao.Read(id);
@@ -70,7 +74,7 @@ namespace DesafioDaGripe01
         {
             MunicipioDAO dao = new MunicipioDAO();
             Municipio mun = dao.Read(id);
-            Console.WriteLine("Nome município: {{0}", mun.Descricao);
+            Console.WriteLine("Nome município: {0}", mun.Descricao);
         }
     }
 }
