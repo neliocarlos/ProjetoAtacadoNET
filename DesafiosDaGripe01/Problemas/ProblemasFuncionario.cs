@@ -1,11 +1,11 @@
 ﻿using System;
-using Atacado.Modelo.RH;
+using Atacado.Domain.RH;
 using Atacado.FakeDB.RH;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Atacado.Modelo.Ancestral;
+using Atacado.Domain.Ancestral;
 
 namespace DesafiosDaGripe01
 {

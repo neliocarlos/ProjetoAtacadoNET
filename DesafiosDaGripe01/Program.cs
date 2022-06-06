@@ -1,11 +1,11 @@
-﻿using Atacado.Modelo.RH;
+﻿using Atacado.Domain.RH;
 using Atacado.FakeDB.RH;
 using DesafiosDaGripe01;
 using DesafiosDaGripe01.Problemas;
 using System;
-using Atacado.Modelo.IBGE;
+using Atacado.Domain.IBGE;
 using Atacado.FakeDB.IBGE;
-using Atacado.Modelo.Ancestral;
+using Atacado.Domain.Ancestral;
 
 namespace DesafioDaGripe01
 {

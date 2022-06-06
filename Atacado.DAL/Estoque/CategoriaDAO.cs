@@ -1,7 +1,7 @@
 ﻿
 using Atacado.DAL.Ancestral;
 using Atacado.FakeDB.Estoque;
-using Atacado.Modelo.Estoque;
+using Atacado.Domain.Estoque;
 using System;
 using System.Collections.Generic;
 using System.Linq;

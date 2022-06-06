@@ -1,4 +1,4 @@
-﻿using Atacado.Modelo.RH;
+﻿using Atacado.Domain.RH;
 using Atacado.DAL.Ancestral;
 using System;
 using System.Collections.Generic;
