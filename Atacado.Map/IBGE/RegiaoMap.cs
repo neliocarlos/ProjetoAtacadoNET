@@ -19,7 +19,7 @@ namespace Atacado.Map.IBGE
             };
         }
 
-        public static Regiao ConverterParaModelo(RegiaoPOCO poco)
+        public static Regiao ConverterParaDomain(RegiaoPOCO poco)
         {
             return new Regiao(poco.Codigo, poco.Descricao);
         }

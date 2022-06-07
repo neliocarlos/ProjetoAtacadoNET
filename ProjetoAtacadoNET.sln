@@ -25,9 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Service
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - DAL", "3 - DAL", "{B922A0A9-A593-47C2-B300-330C784533D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.Domain", "Atacado.Domain\Atacado.Domain.csproj", "{DC61AFFA-421F-40A6-BBF9-876338009F2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.Domain", "Atacado.Domain\Atacado.Domain.csproj", "{DC61AFFA-421F-40A6-BBF9-876338009F2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.Service", "Atacado.Service\Atacado.Service.csproj", "{315FA45F-5217-4179-8C25-AC32BFC1D679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.Service", "Atacado.Service\Atacado.Service.csproj", "{315FA45F-5217-4179-8C25-AC32BFC1D679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.Business", "Atacado.Business\Atacado.Business.csproj", "{C4D9007D-765B-49F6-81D4-C06F567A997A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{315FA45F-5217-4179-8C25-AC32BFC1D679}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{315FA45F-5217-4179-8C25-AC32BFC1D679}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{315FA45F-5217-4179-8C25-AC32BFC1D679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D9007D-765B-49F6-81D4-C06F567A997A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D9007D-765B-49F6-81D4-C06F567A997A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D9007D-765B-49F6-81D4-C06F567A997A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D9007D-765B-49F6-81D4-C06F567A997A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{60D865A7-E1AF-4B5D-B80F-25FE332F7DC8} = {C994A289-5E48-4017-B29C-83CEB561B8D8}
 		{DC61AFFA-421F-40A6-BBF9-876338009F2A} = {B922A0A9-A593-47C2-B300-330C784533D2}
 		{315FA45F-5217-4179-8C25-AC32BFC1D679} = {B9A2EB46-ED52-4172-AA36-85B5E67BC79A}
+		{C4D9007D-765B-49F6-81D4-C06F567A997A} = {B9A2EB46-ED52-4172-AA36-85B5E67BC79A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {55B382D4-AD4F-4B0C-8102-0207A3BC202B}

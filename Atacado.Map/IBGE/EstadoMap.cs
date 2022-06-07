@@ -21,7 +21,7 @@ namespace Atacado.Map.IBGE
             };
         }
 
-        public static Estado ConverterParaModelo(EstadoPOCO poco)
+        public static Estado ConverterParaDomain(EstadoPOCO poco)
         {
             return new Estado(poco.Codigo, poco.Descricao, poco.SiglaUF, poco.RegiaoBrasil);
         }

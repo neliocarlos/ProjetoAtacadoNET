@@ -3,8 +3,24 @@
   <Class Name="Atacado.Service.Estoque.CategoriaService">
     <Position X="6.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAgAAAAAEAAAAIEAABABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Estoque\CategoriaService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Atacado.Service.Estoque.SubcategoriaService">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAAAAIEAABABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estoque\SubcategoriaService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Atacado.Service.Estoque.ProdutoService">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAAAAIEAABABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estoque\ProdutoService.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>

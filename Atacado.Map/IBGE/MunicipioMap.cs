@@ -28,7 +28,7 @@ namespace Atacado.Map.IBGE
             };
         }
 
-        public static Municipio ConverterParaModelo(MunicipioPOCO poco)
+        public static Municipio ConverterParaDomain(MunicipioPOCO poco)
         {
             return new Municipio(
                 poco.Codigo,
