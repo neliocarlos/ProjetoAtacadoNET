@@ -3,9 +3,9 @@ using Atacado.Service.RH;
 
 namespace AtacadoWinApp
 {
-    public partial class Form1 : Form
+    public partial class PrincipalFrm : Form
     {
-        public Form1()
+        public PrincipalFrm()
         {
             InitializeComponent();
         }
@@ -22,30 +22,37 @@ namespace AtacadoWinApp
             this.Close();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void AdicionarFuncionarioMenuItem_Click(object sender, EventArgs e)
         {
-
+            AdicionarFuncionariosFrm frm = new AdicionarFuncionariosFrm();
+            frm.ShowDialog();
         }
 
-        private void ValidarBtn_Click(object sender, EventArgs e)
-        {
-            FuncionarioPOCO poco = new FuncionarioPOCO()
-            {
-                Cpf = CpfTxt.Text
-            };
+        //private void label1_Click(object sender, EventArgs e)
+        //{
 
-            FuncionarioService srv = new FuncionarioService();
-            if (srv.Validar(poco) == false)
-            {
-                string mensagem = srv.MensagensDeErro.Aggregate((x, y) => x + ";" + y);
-                MessageBox.Show(mensagem, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-            {
-                string mensagem = "- CPF válido.";
-                MessageBox.Show(mensagem, "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            return;
-        }
+        //}
+
+        //private void ValidarBtn_Click(object sender, EventArgs e)
+        //{
+        //    FuncionarioPOCO poco = new FuncionarioPOCO()
+        //    {
+        //        Cpf = CpfTxt.Text
+        //    };
+
+        //    FuncionarioService srv = new FuncionarioService();
+        //    if (srv.Validar(poco) == false)
+        //    {
+        //        string mensagem = srv.MensagensDeErro.Aggregate((x, y) => x + ";" + y);
+        //        MessageBox.Show(mensagem, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //    }
+        //    else
+        //    {
+        //        string mensagem = "- CPF válido.";
+        //        MessageBox.Show(mensagem, "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //    }
+        //    return;
+        //}
+
     }
 }
