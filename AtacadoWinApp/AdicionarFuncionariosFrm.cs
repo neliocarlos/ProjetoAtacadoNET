@@ -17,7 +17,7 @@ namespace AtacadoWinApp
         public AdicionarFuncionariosFrm()
         {
             InitializeComponent();
-            PreencherSexoCmb();
+            //PreencherSexoCmb();
         }
 
         private void CodigoLbl_Click(object sender, EventArgs e)
@@ -64,7 +64,7 @@ namespace AtacadoWinApp
                 Naturalidade = NaturalidadeTxt.Text,
                 Rg = RgTxt.Text,
                 DtNascimento = DtNascimentoDtPicker.Value,
-                Sexo = SexoCmb.SelectedItem.ToString(),
+                //Sexo = SexoCmb.SelectedItem.ToString(),
             };
 
             FuncionarioService srv = new FuncionarioService();
@@ -81,39 +81,39 @@ namespace AtacadoWinApp
             return;
         }
 
-        private void PreencherSexoCmb(FuncionarioPOCO funcionario)
-        {
-            //FuncionarioPOCO funcionario = new FuncionarioPOCO();
-            //if (SexoCmb.SelectedItem.ToString() == "Masculino")
-            //{
-            //    this.funcionario.Sexo = "M";
-            //}
-            //else
-            //    this.funcionario.Sexo = "F";
+        //private void PreencherSexoCmb(FuncionarioPOCO funcionario)
+        //{
+        //    //FuncionarioPOCO funcionario = new FuncionarioPOCO();
+        //    //if (SexoCmb.SelectedItem.ToString() == "Masculino")
+        //    //{
+        //    //    this.funcionario.Sexo = "M";
+        //    //}
+        //    //else
+        //    //    this.funcionario.Sexo = "F";
 
-            SexoCmb.Items.Clear();
+        //    SexoCmb.Items.Clear();
 
-            SexoCmb.DisplayMember = "Value";
-            SexoCmb.ValueMember = "Key";
+        //    SexoCmb.DisplayMember = "Value";
+        //    SexoCmb.ValueMember = "Key";
 
-            Dictionary<string, string> itens = new Dictionary<string, string>();
-            itens.Add("M", "Masculino");
-            itens.Add("F", "Feminino");
+        //    Dictionary<string, string> itens = new Dictionary<string, string>();
+        //    itens.Add("M", "Masculino");
+        //    itens.Add("F", "Feminino");
 
-            SexoCmb.DataSource = new BindingSource(itens, null);
+        //    SexoCmb.DataSource = new BindingSource(itens, null);
 
-            SexoCmb.SelectedIndex = 0;
-        }
+        //    SexoCmb.SelectedIndex = 0;
+        //}
 
-        private void TesteBtn_Click(object sender, EventArgs e)
-        {
-            if (SexoCmb.SelectedIndex == -1)
-                MessageBox.Show("ERRO");
-            else
-            {
-                string texto = SexoCmb.SelectedValue.ToString();
-                MessageBox.Show(texto);
-            }
-        }
+        //private void TesteBtn_Click(object sender, EventArgs e)
+        //{
+        //    if (SexoCmb.SelectedIndex == -1)
+        //        MessageBox.Show("ERRO");
+        //    else
+        //    {
+        //        string texto = SexoCmb.SelectedValue.ToString();
+        //        MessageBox.Show(texto);
+        //    }
+        //}
     }
 }

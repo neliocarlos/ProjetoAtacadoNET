@@ -334,16 +334,6 @@
             this.AdicionarBtn.UseVisualStyleBackColor = true;
             this.AdicionarBtn.Click += new System.EventHandler(this.AdicionarBtn_Click);
             // 
-            // TesteBtn
-            // 
-            this.TesteBtn.Location = new System.Drawing.Point(713, 16);
-            this.TesteBtn.Name = "TesteBtn";
-            this.TesteBtn.Size = new System.Drawing.Size(75, 23);
-            this.TesteBtn.TabIndex = 35;
-            this.TesteBtn.Text = "Teste";
-            this.TesteBtn.UseVisualStyleBackColor = true;
-            this.TesteBtn.Click += new System.EventHandler(this.TesteBtn_Click);
-            // 
             // AdicionarFuncionariosFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);

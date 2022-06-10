@@ -34,6 +34,8 @@
             this.ArquivoMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.FuncionariosMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AdicionarFuncionarioMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.EmpresasMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.CadastrarEmpresaMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PrincipalMnu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +72,8 @@
             // ArquivoMenuItem1
             // 
             this.ArquivoMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.FuncionariosMenuItem});
+            this.FuncionariosMenuItem,
+            this.EmpresasMenuItem});
             this.ArquivoMenuItem1.Name = "ArquivoMenuItem1";
             this.ArquivoMenuItem1.Size = new System.Drawing.Size(61, 20);
             this.ArquivoMenuItem1.Text = "Arquivo";
@@ -89,6 +92,21 @@
             this.AdicionarFuncionarioMenuItem.Size = new System.Drawing.Size(180, 22);
             this.AdicionarFuncionarioMenuItem.Text = "Adicionar";
             this.AdicionarFuncionarioMenuItem.Click += new System.EventHandler(this.AdicionarFuncionarioMenuItem_Click);
+            // 
+            // EmpresasMenuItem
+            // 
+            this.EmpresasMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.CadastrarEmpresaMenuItem});
+            this.EmpresasMenuItem.Name = "EmpresasMenuItem";
+            this.EmpresasMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.EmpresasMenuItem.Text = "Empresas";
+            // 
+            // CadastrarEmpresaMenuItem
+            // 
+            this.CadastrarEmpresaMenuItem.Name = "CadastrarEmpresaMenuItem";
+            this.CadastrarEmpresaMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.CadastrarEmpresaMenuItem.Text = "Cadastrar";
+            this.CadastrarEmpresaMenuItem.Click += new System.EventHandler(this.CadastrarEmpresaMenuItem_Click);
             // 
             // PrincipalFrm
             // 
@@ -116,5 +134,7 @@
         private ToolStripMenuItem ArquivoMenuItem1;
         private ToolStripMenuItem FuncionariosMenuItem;
         private ToolStripMenuItem AdicionarFuncionarioMenuItem;
+        private ToolStripMenuItem EmpresasMenuItem;
+        private ToolStripMenuItem CadastrarEmpresaMenuItem;
     }
 }

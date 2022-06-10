@@ -28,6 +28,12 @@ namespace AtacadoWinApp
             frm.ShowDialog();
         }
 
+        private void CadastrarEmpresaMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastrarEmpresasFrm frm = new CadastrarEmpresasFrm();
+            frm.ShowDialog();
+        }
+
         //private void label1_Click(object sender, EventArgs e)
         //{
 
